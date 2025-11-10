@@ -2,6 +2,30 @@
 Exploratory data analysis for an online store based in UK.
 
 ## 1. Background and Overview
+This project analyzes two years of transaction data from an online retail store to identify key business issues and uncover their root causes. The objective is to derive insights that can inform strategic recommendations aimed at resolving existing challenges and preventing similar issues from occurring in the future.
+
+## 2. Data Structure Overview
+The dataset consists of two years of transaction records from the online retail store, covering the period from December 1, 2009, to December 19, 2011. It contains detailed information on purchased products, transaction dates, pricing, and customer identifiers. The dataset includes the following fields:
+
+InvoiceNo — Unique identifier for each transaction.
+
+StockCode — Product code, also known as the Stock Keeping Unit (SKU).
+
+Description — Product name or description.
+
+Quantity — Number of units purchased in the transaction.
+
+InvoiceDate — Date and time when the transaction occurred.
+
+UnitPrice — Price per unit of the product.
+
+CustomerID — Unique identifier for each customer.
+
+Country — Customer's country of origin.
+
+The depth of information in these fields enables comparative analysis of customer behavior and sales performance over time, and provides a foundation for identifying purchasing patterns and evaluating customer value.
+
+## 3. Executive Summary
 The dataset originates from an online retail store based in the United Kingdom that specializes in gifts and home decoration products. The analysis covers two years of transaction records, from December 2009 to November 2011, including detailed information on products, transaction dates, quantities, and pricing.
 
 For comparison purposes, the dataset is divided into two periods:
