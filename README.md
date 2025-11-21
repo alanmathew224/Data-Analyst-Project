@@ -43,11 +43,11 @@ A. Customer & Revenue Concentration
 
 Headline: Revenue is heavily concentrated in a very small share of customers.
 
-Top 2% of customers account for ~36% of yearly revenue; top 20% account for >73%, while the bottom 50% contribute only ~8%.
+- Top 2% of customers account for ~36% of yearly revenue; top 20% account for >73%, while the bottom 50% contribute only ~8%.
 
-Overall growth is stagnant: total sales ↑ ~1% YoY and customer count ↑ ~1%, showing little expansion beyond the existing base.
+- Overall growth is stagnant: total sales ↑ ~1% YoY and customer count ↑ ~1%, showing little expansion beyond the existing base.
 
-Business implication: the store’s revenue is highly dependent on a small set of customers—loss or disengagement from these customers creates outsized impact.
+- Business implication: the store’s revenue is highly dependent on a small set of customers—loss or disengagement from these customers creates outsized impact.
 
 [CHART: Pareto / cumulative revenue by customer percentile]
 
@@ -57,11 +57,11 @@ B. Churn, Acquisition & Cohort Revenue Impact
 
 Headline: Net customer churn and cohort-level revenue shifts show value loss despite similar headcount.
 
-The store lost 1,526 existing customers and acquired 1,582 new customers in Year 2; however, many of the churned customers were high-value (76 from prior Year1 top 20%, 5 from top 2%).
+- The store lost 1,526 existing customers and acquired 1,582 new customers in Year 2; however, many of the churned customers were high-value (76 from prior Year1 top 20%, 5 from top 2%).
 
-Although new customers generated revenue (~£1,350k), identified-customer revenue declined ~2.7% YoY; retained customers spent ~8% less in Year 2, and Year1 top-20% spent ~13.76% less (~£768k loss).
+- Although new customers generated revenue (~£1,350k), identified-customer revenue declined ~2.7% YoY; retained customers spent ~8% less in Year 2, and Year1 top-20% spent ~13.76% less (~£768k loss).
 
-Net effect: headcount stability masks an erosion in customer value—retention (and re-engagement) of high-value cohorts is critical.
+- Net effect: headcount stability masks an erosion in customer value—retention (and re-engagement) of high-value cohorts is critical.
 
 [CHART: Cohort flow / Sankey of Retained → Lost → New with revenue amounts]
 
@@ -71,11 +71,11 @@ C. Anonymous (Non-identified) Customer Impact
 
 Headline: Growing share of anonymous transactions increases revenue uncertainty and limits retention actions.
 
-Non-identified transactions rose to 24.5% of transactions in Year 2 (from 19.5% in Year 1); their revenue share rose to ~15.14% (from 11.58%).
+- Non-identified transactions rose to 24.5% of transactions in Year 2 (from 19.5% in Year 1); their revenue share rose to ~15.14% (from 11.58%).
 
-Because these customers lack identifiers, the store cannot observe purchasing patterns or run targeted retention—limiting lifetime value optimization.
+- Because these customers lack identifiers, the store cannot observe purchasing patterns or run targeted retention—limiting lifetime value optimization.
 
-Business implication: reducing anonymous transactions or capturing identifiers will unlock targeted marketing and repeat-purchase strategies.
+- Business implication: reducing anonymous transactions or capturing identifiers will unlock targeted marketing and repeat-purchase strategies.
 
 [CHART: Identified vs Non-identified — transactions and revenue share by period]
 
@@ -85,11 +85,11 @@ D. Seasonality & Customer Behavior Patterns
 
 Headline: Strong seasonality (Fall/November peak) and heterogeneous buyer types complicate one-size-fits-all segmentation.
 
-Fall accounts for ~36.9% of revenue with a November peak; other seasons average ≈21% each, and Fall also shows spikes in customers and transactions.
+- Fall accounts for ~36.9% of revenue with a November peak; other seasons average ≈21% each, and Fall also shows spikes in customers and transactions.
 
-Many top customers are wholesalers with diverse buying rhythms (frequent small orders, periodic bulk orders, or seasonal-only purchases).
+- Many top customers are wholesalers with diverse buying rhythms (frequent small orders, periodic bulk orders, or seasonal-only purchases).
 
-Implication: basic RFM alone is insufficient — wholesalers distort frequency/recency signals and require behavior-aware segmentation.
+- Implication: basic RFM alone is insufficient — wholesalers distort frequency/recency signals and require behavior-aware segmentation.
 
 [CHART: Monthly revenue and transaction counts (seasonal decomposition)]
 
@@ -99,9 +99,9 @@ E. Discounting & Promotional Usage
 
 Headline: Discounting is rarely used and concentrated in a few customers; promotional coverage is minimal.
 
-Only 56 customers recorded discounted transactions (very limited use of discounts).
+- Only 56 customers recorded discounted transactions (very limited use of discounts).
 
-Low promotional penetration suggests missed opportunities for targeted offers to retain or reactivate specific cohorts.
+- Low promotional penetration suggests missed opportunities for targeted offers to retain or reactivate specific cohorts.
 
 [TABLE: Discounted transactions — count, revenue, and customer list]
 
@@ -111,9 +111,9 @@ F. Product Revenue Concentration & SKU Dependence
 
 Headline: Sales are concentrated in a small subset of SKUs—product portfolio risk mirrors customer concentration.
 
-4,737 SKUs sold over two years; top 5% of SKUs generate ~45.5% of revenue, top 20% generate ~78%, bottom 50% only ~4.6%.
+- 4,737 SKUs sold over two years; top 5% of SKUs generate ~45.5% of revenue, top 20% generate ~78%, bottom 50% only ~4.6%.
 
-The store is dependent on a narrow product set for revenue—SKU-level failures or stockouts could have large revenue implications.
+- The store is dependent on a narrow product set for revenue—SKU-level failures or stockouts could have large revenue implications.
 
 [CHART: Pareto of SKU revenue share]
 
@@ -123,9 +123,9 @@ G. Segment-Specific Behavioral Insight (Hibernating Customers)
 
 Headline: Hibernating customers concentrate spend in low-value categories, potentially explaining churn.
 
-“Hibernating” cohort spends predominantly on the “Bottom” product category across months in Year 1.
+- “Hibernating” cohort spends predominantly on the “Bottom” product category across months in Year 1.
 
-Possible interpretation: low-ticket purchasing mix reduces engagement and increases likelihood of churn when product relevance or availability declines.
+- Possible interpretation: low-ticket purchasing mix reduces engagement and increases likelihood of churn when product relevance or availability declines.
 
 [CHART: Monthly spend by product category for Hibernating cohort]
 
@@ -135,11 +135,11 @@ H. Cancellations & Returns — Distribution and Impact
 
 Headline: Cancellations are widespread across segments but do not appear to be the primary driver of customer loss.
 
-High percentages of cancellations exist across segments (e.g., ~94% of VIPs, 90% of Elites have had at least one cancellation).
+- High percentages of cancellations exist across segments (e.g., ~94% of VIPs, 90% of Elites have had at least one cancellation).
 
-Categorizing cancellation revenue: 73.26% of cancellation revenue loss falls into a “good” group (customers with stable or only slightly declining net revenue), 17.92% in the “bad” group (lost/declining customers), 8.82% others.
+- Categorizing cancellation revenue: 73.26% of cancellation revenue loss falls into a “good” group (customers with stable or only slightly declining net revenue), 17.92% in the “bad” group (lost/declining customers), 8.82% others.
 
-Conclusion: cancellations alone are unlikely to explain most customer churn; other factors (value decline, competition, product fit) are likely contributors.
+- Conclusion: cancellations alone are unlikely to explain most customer churn; other factors (value decline, competition, product fit) are likely contributors.
 
 [CHART: Cancellation revenue waterfall by customer group (Good / Bad / Other)]
 
