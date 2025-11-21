@@ -42,6 +42,7 @@ By applying customer segmentation, the store can not only retain high-value cust
 A. Customer & Revenue Concentration
 
 Headline: Revenue is heavily concentrated in a very small share of customers.
+ 
 
 - Top 2% of customers account for ~36% of yearly revenue; top 20% account for >73%, while the bottom 50% contribute only ~8%.
 
