@@ -60,9 +60,7 @@ Headline: Net customer churn and cohort-level revenue shifts show value loss des
 
 - Net effect: headcount stability masks an erosion in customer value—retention (and re-engagement) of high-value cohorts is critical.
 
-[CHART: Cohort flow / Sankey of Retained → Lost → New with revenue amounts]
-
-[TABLE: Year1 vs Year2 revenue by cohort (Retained / Lost / New)]
+<img width="627" height="280" alt="RevenueWaterfall" src="https://github.com/user-attachments/assets/0dec4c6e-8e7a-4e5e-86b1-bcf958cb4618" />
 
 C. Anonymous (Non-identified) Customer Impact
 
@@ -112,9 +110,7 @@ Headline: Sales are concentrated in a small subset of SKUs—product portfolio r
 
 - The store is dependent on a narrow product set for revenue—SKU-level failures or stockouts could have large revenue implications.
 
-[CHART: Pareto of SKU revenue share]
-
-[TABLE: Top 20 SKUs by revenue and share]
+<img width="623" height="463" alt="ProductPareto" src="https://github.com/user-attachments/assets/314c407a-dee7-4998-9ef5-eb9108d9cd01" />
 
 G. Segment-Specific Behavioral Insight (Hibernating Customers)
 
