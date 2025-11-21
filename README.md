@@ -110,7 +110,7 @@ Headline: Sales are concentrated in a small subset of SKUs—product portfolio r
 
 - The store is dependent on a narrow product set for revenue—SKU-level failures or stockouts could have large revenue implications.
 
-<img width="623" height="463" alt="ProductPareto" src="https://github.com/user-attachments/assets/314c407a-dee7-4998-9ef5-eb9108d9cd01" />
+<img width="623" height="463" alt="ProductPareto" src="https://github.com/user-attachments/assets/2cd9a7f1-1a42-4061-8f98-15c15cd8675a" />
 
 G. Segment-Specific Behavioral Insight (Hibernating Customers)
 
