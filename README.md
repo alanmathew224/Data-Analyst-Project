@@ -130,7 +130,7 @@ Headline: Cancellations are widespread across segments but do not appear to be t
 
 - High percentages of cancellations exist across segments (e.g., ~94% of VIPs, 90% of Elites have had at least one cancellation).
 
-- Categorizing cancellation revenue: 73.26% of cancellation revenue loss falls into a “good” group (customers with stable or only slightly declining net revenue), 17.92% in the “bad” group (lost/declining customers), 8.82% others.
+- Categorizing cancellation revenue: 71.18% of cancellation revenue loss falls into a “good” group (customers with stable or only slightly declining net revenue), 25.82% in the “bad” group (lost/declining customers), 3% others.
 
 - Conclusion: cancellations alone are unlikely to explain most customer churn; other factors (value decline, competition, product fit) are likely contributors.
 
