@@ -72,9 +72,15 @@ Headline: Growing share of anonymous transactions increases revenue uncertainty 
 
 - Business implication: reducing anonymous transactions or capturing identifiers will unlock targeted marketing and repeat-purchase strategies.
 
-[CHART: Identified vs Non-identified — transactions and revenue share by period]
+	Non-Identified			Identified		
+	Year1	Year2	Growth Rate	Year1	Year2	Growth Rate
+Total Revenue	 £1,059,460.82 	 £1,403,593.69 	32%	 £8,086,061.14 	 £7,867,131.92 	-3%
+Total Transactions	1607	1360	-15%	21974	20772	-5%
+Total Quantity	268550	390479	45%	5160372	4671671	-9%
+Unique Products	3494	3277	-6%	4011	3669	-9%
+AverageOrderValue	 £659.28 	 £1,032.05 	57%	 £367.98 	 £378.74 	3%
+<img width="922" height="169" alt="image" src="https://github.com/user-attachments/assets/c796f46f-719b-4b8a-9ce2-98481b9d55fd" />
 
-[TABLE: Revenue contribution and average order value (AOV) for identified vs non-identified]
 
 D. Seasonality & Customer Behavior Patterns
 
