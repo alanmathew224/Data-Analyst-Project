@@ -7,21 +7,21 @@ This project analyzes two years of transaction data from an online retail store 
 ## 2. Data Structure Overview
 The dataset comprises two years of transactional records from the online retail store (December 1, 2009 – December 19, 2011). It includes item-level sales data with associated customer identifiers, providing a basis for customer-level and product-level analysis. The key fields are as follows:
 
-InvoiceNo — Transaction identifier at the invoice level.
+- InvoiceNo — Transaction identifier at the invoice level.
 
-StockCode (SKU) — Unique product-level identifier used for inventory tracking.
+- StockCode (SKU) — Unique product-level identifier used for inventory tracking.
 
-Description — Text label describing the product.
+- Description — Text label describing the product.
 
-Quantity — Number of units purchased in the transaction line.
+- Quantity — Number of units purchased in the transaction line.
 
-InvoiceDate — Timestamp capturing the exact date and time of purchase.
+- InvoiceDate — Timestamp capturing the exact date and time of purchase.
 
-UnitPrice — Price per unit of the product at the time of sale.
+- UnitPrice — Price per unit of the product at the time of sale.
 
-CustomerID — Encoded customer identifier enabling longitudinal customer tracking.
+- CustomerID — Encoded customer identifier enabling longitudinal customer tracking.
 
-Country — Geographic location of the customer.
+- Country — Geographic location of the customer.
 
 This structure allows for multi-dimensional analysis, including cohort tracking, sales trend evaluation, customer lifetime value estimation, and segmentation based on behavioral and monetary patterns.
 
