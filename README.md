@@ -39,6 +39,8 @@ While various retention and engagement strategies (such as loyalty programs, per
 By applying customer segmentation, the store can not only retain high-value customers but also systematically grow customer lifetime value across all segments through more precise, data-driven engagement and revenue optimization initiatives.
 
 ## 4. Insight Deep Dive
+
+### What?
 A. Customer & Revenue Concentration
 
 Headline: Revenue is heavily concentrated in a very small share of customers.
