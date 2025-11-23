@@ -1,3 +1,5 @@
+
+
 | Segment     | Status          | Priority | Campaign                     | Tactics                                                        | Channels                              | Timing                | Offer Example                                          | Key KPI                                | Customer Count | Total CLTV          | Average CLTV       |
 | ----------- | --------------- | -------- | ---------------------------- | -------------------------------------------------------------- | ------------------------------------- | --------------------- | ------------------------------------------------------ | -------------------------------------- | -------------- | ------------------- | ------------------ |
 | VIP         | Active          | Highest  | Loyalty & Expansion          | Cross-sell recs, loyalty boosts, referral incentives           | Account Manager, Email, Phone, Events | Ongoing               | Exclusive 1:1 offers, early access, tailored pricing   | Retention rate, Rev change, Attendance | 15             |  £ 2,997,280.90     |  £  199,818.73     |
