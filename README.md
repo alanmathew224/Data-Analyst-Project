@@ -107,6 +107,8 @@ Headline: Hibernating customers concentrate spend in low-value categories, poten
 - In contrast, Premium, Elite, and VIP segments direct the majority of their spending toward Top-tier products, indicating a clear value stratification across behavioral groups.
 - Possible interpretation: low-ticket purchasing mix reduces engagement and increases likelihood of churn when product relevance or availability declines.
 
+[Download the Power BI file](./InteractiveChart.pbix)
+
 #### C. Cancellations & Returns — Distribution and Impact
 
 Headline: Cancellations are widespread across segments but do not appear to be the primary driver of customer loss.
