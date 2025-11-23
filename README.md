@@ -98,6 +98,12 @@ Headline: Sales are concentrated in a small subset of SKUs—product portfolio r
 
 <img width="623" height="463" alt="ProductPareto" src="https://github.com/user-attachments/assets/2cd9a7f1-1a42-4061-8f98-15c15cd8675a" />
 
+## RESULT
+
+The Year-2 segment metrics show a clear performance gradient across customer tiers. VIPs drive overwhelmingly higher value, marked by extremely frequent purchases, high monetary contribution, broad product variety, and the shortest repurchase cycle. Elite customers follow with strong but substantially lower spend and frequency. Premium buyers maintain moderate purchase activity and product diversity, while Mass customers contribute minimally across all dimensions.
+
+<img width="928" height="121" alt="image" src="https://github.com/user-attachments/assets/34280638-9db5-4651-8ca7-8e85b60d2b6a" />
+
 ## WHY?
 
 #### A. Discounting & Promotional Usage
