@@ -115,7 +115,7 @@ Headline: Cancellations are widespread across segments but do not appear to be t
 
 <img width="627" height="376" alt="CancellationStackedBarChart" src="https://github.com/user-attachments/assets/8a722d25-8fbd-49e5-8b04-1e5f40b25816" />
 
-- Categorizing cancellation revenue: 71.18% of cancellation revenue loss falls into a “good” group (customers with stable or only slightly declining net revenue), 25.82% in the “bad” group (lost/declining customers), 3% others.
+- Categorizing cancellation revenue: 71.18% of cancellation revenue loss falls into a “good” group (customers with stable or inclining revenue), 25.82% in the “bad” group (lost/customers with declining revenue), 3% others.
 
 <img width="591" height="504" alt="CancellationPieChart" src="https://github.com/user-attachments/assets/071436d4-5480-49cc-964b-13c4d4eab5e3" />
 
@@ -124,17 +124,19 @@ Headline: Cancellations are widespread across segments but do not appear to be t
 ## 5. RECOMMENDATION
 
 ### A. Marketing Campaign
-#### a. Segment-Status-Behavior Campaign
+#### Segment-Status-Behavior Campaign
 
-#### b. Seasonality Campaign
+#### Seasonality Campaign
 Objective: Maximize margin and long-term value during the Fall peak without unnecessary margin erosion.
+
 Why: Fall (Nov peak) accounts for a major share of revenue—opportunities for upsell, acquisition, and reactivation are highest then.
 
 Promotions framework: use tiered incentives (e.g., free shipping threshold, bundle discounts) rather than across-the-board percent-off to preserve margin.
 Measurement: incremental revenue during campaign vs. expected baseline, mix shift to Top products, margin impact per campaign. Use holdout/control geography or customer sample to measure true lift.
 
-#### c. Measurement & Experimentation Framework
+#### Measurement & Experimentation Framework
 Objective: Require A/B testing, uplift measurement, and clear KPIs for all major campaigns.
+
 Why: Prevents wasted marketing spend and clarifies which tactics actually move the business metrics.
 Tactics:
 - Use holdout groups / randomized assignment for retention and acquisition campaigns.
@@ -145,6 +147,7 @@ KPIs: incremental revenue per cohort, incremental profit, LTV uplift, lift confi
 ### B. Convert Anonymous Buyer
 
 Objective: Reduce anonymous transactions and capture identifiers so customers can be targeted and measured.
+
 Why: Anonymous customers grew to ~24.5% of transactions and contributed >15% of revenue; their AOV can exceed Elite AOV — a sizeable missed opportunity if left anonymous.
 Tactics (example):
 - Low-friction incentives to register (e.g., one-time account signup incentive: tracked £10 voucher, or account registration with expedited checkout).
@@ -156,6 +159,7 @@ KPIs / Next steps: % transactions with identifier, conversion rate from anonymou
 ### C. Product-level Growth Levers
 
 Objective: Increase revenue by promoting Top products to cohorts likely to convert higher AOV.
+
 Why: Revenue is concentrated in a small set of products; aligning product promotions to segment propensity increases conversion efficiency.
 Tactics:
 
@@ -166,4 +170,5 @@ KPIs: uplift in Top-product penetration, AOV change, attach rate of cross-sell i
 ### D. Data & Analytics Pipeline Improvements
 
 Objective: Improve data quality, tracking and schema to enable reliable segmentation, attribution, and personalization.
+
 Why: Current issues (high anonymous share, limited discount tracking, cancellation linkages) block accurate cohort measurement and campaign targeting. Clean, consistent data is required to execute and measure recommendations.
