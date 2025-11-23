@@ -129,13 +129,6 @@ Headline: Cancellations are widespread across segments but do not appear to be t
 #### b. Seasonality Campaign
 Objective: Maximize margin and long-term value during the Fall peak without unnecessary margin erosion.
 Why: Fall (Nov peak) accounts for a major share of revenue—opportunities for upsell, acquisition, and reactivation are highest then.
-Tactics (examples):
-
-Premium strategy (no blanket discount): VIP/Elite pre-sale access to new Top products — preserve margin while rewarding loyalty.
-
-Acquisition/activation: targeted, time-limited bundles for New customers (Top product trial offers) to nudge higher future AOV.
-
-Retention/win-back: targeted discounted bundles for Hibernating customers timed before peak to reactivate them.
 
 Promotions framework: use tiered incentives (e.g., free shipping threshold, bundle discounts) rather than across-the-board percent-off to preserve margin.
 Measurement: incremental revenue during campaign vs. expected baseline, mix shift to Top products, margin impact per campaign. Use holdout/control geography or customer sample to measure true lift.
@@ -144,12 +137,9 @@ Measurement: incremental revenue during campaign vs. expected baseline, mix shif
 Objective: Require A/B testing, uplift measurement, and clear KPIs for all major campaigns.
 Why: Prevents wasted marketing spend and clarifies which tactics actually move the business metrics.
 Tactics:
-
-Use holdout groups / randomized assignment for retention and acquisition campaigns.
-
-Measure both short-term (AOV, conversion) and medium-term (repeat purchase, CLV) impact.
-
-Track incremental revenue and margin impact, not only redemption counts.
+- Use holdout groups / randomized assignment for retention and acquisition campaigns.
+- Measure both short-term (AOV, conversion) and medium-term (repeat purchase, CLV) impact.
+- Track incremental revenue and margin impact, not only redemption counts.
 KPIs: incremental revenue per cohort, incremental profit, LTV uplift, lift confidence intervals.
 
 ### B. Convert Anonymous Buyer
@@ -160,6 +150,7 @@ Tactics (example):
 - Low-friction incentives to register (e.g., one-time account signup incentive: tracked £10 voucher, or account registration with expedited checkout).
 - Post-purchase capture: offer digital receipts, order tracking, or loyalty points in exchange for an email/phone.
 - Incentivize with high-value offers for first tracked purchase to encourage future identification.
+
 KPIs / Next steps: % transactions with identifier, conversion rate from anonymous → identified, AOV and repeat purchase rate of newly identified customers.
 
 ### C. Product-level Growth Levers
@@ -170,7 +161,6 @@ Tactics:
 
 Target New customers and “Unknown” frequency customers with Top-product trial bundles + cross-sell recommendations.
 
-Bundle Top + Mid items to nudge Hibernating/Unknown cohorts toward higher-ticket purchases.
 KPIs: uplift in Top-product penetration, AOV change, attach rate of cross-sell items.
 
 ### D. Data & Analytics Pipeline Improvements
