@@ -40,8 +40,8 @@ By applying customer segmentation, the store can not only retain high-value cust
 
 ## 4. Insight Deep Dive
 
-### What?
-A. Customer & Revenue Concentration
+### WHAT?
+#### A. Customer & Revenue Concentration
 
 Headline: Revenue is heavily concentrated in a very small share of customers.
 
@@ -52,7 +52,7 @@ Headline: Revenue is heavily concentrated in a very small share of customers.
 - Business implication: the store’s revenue is highly dependent on a small set of customers—loss or disengagement from these customers creates outsized impact.
 <img width="623" height="463" alt="CustomerPareto" src="https://github.com/user-attachments/assets/9d5bc9fd-1d28-4400-9ac3-21c4b976bfaa" />
 
-B. Churn, Acquisition & Cohort Revenue Impact
+#### B. Churn, Acquisition & Cohort Revenue Impact
 
 Headline: Net customer churn and cohort-level revenue shifts show value loss despite similar headcount.
 
@@ -64,7 +64,7 @@ Headline: Net customer churn and cohort-level revenue shifts show value loss des
 
 <img width="627" height="280" alt="RevenueWaterfall" src="https://github.com/user-attachments/assets/0dec4c6e-8e7a-4e5e-86b1-bcf958cb4618" />
 
-C. Anonymous (Non-identified) Customer Impact
+#### C. Anonymous (Non-identified) Customer Impact
 
 Headline: Growing share of anonymous transactions increases revenue uncertainty and limits retention actions.
 
@@ -76,7 +76,7 @@ Headline: Growing share of anonymous transactions increases revenue uncertainty 
 
   <img width="850" height="169" alt="image" src="https://github.com/user-attachments/assets/e7947317-c3e5-4f0e-a404-c083750c8a44" />
 
-D. Seasonality & Customer Behavior Patterns
+#### D. Seasonality & Customer Behavior Patterns
 
 Headline: Strong seasonality (Fall/November peak) and heterogeneous buyer types complicate one-size-fits-all segmentation.
 
@@ -86,23 +86,9 @@ Headline: Strong seasonality (Fall/November peak) and heterogeneous buyer types 
 
 - Implication: basic RFM alone is insufficient — wholesalers distort frequency/recency signals and require behavior-aware segmentation.
 
-[CHART: Monthly revenue and transaction counts (seasonal decomposition)]
+<img width="627" height="309" alt="RevenueSeasonal" src="https://github.com/user-attachments/assets/0edf021a-6caf-4de8-ad45-3c1184d2258d" />
 
-[CHART: Example RFM scatter with wholesaler vs retail customer markers]
-
-E. Discounting & Promotional Usage
-
-Headline: Discounting is rarely used and concentrated in a few customers; promotional coverage is minimal.
-
-- Only 56 customers recorded discounted transactions (very limited use of discounts).
-
-- Low promotional penetration suggests missed opportunities for targeted offers to retain or reactivate specific cohorts.
-
-[TABLE: Discounted transactions — count, revenue, and customer list]
-
-[CHART: Discount incidence vs revenue change by cohort]
-
-F. Product Revenue Concentration & SKU Dependence
+#### E. Product Revenue Concentration & SKU Dependence
 
 Headline: Sales are concentrated in a small subset of SKUs—product portfolio risk mirrors customer concentration.
 
@@ -112,32 +98,44 @@ Headline: Sales are concentrated in a small subset of SKUs—product portfolio r
 
 <img width="623" height="463" alt="ProductPareto" src="https://github.com/user-attachments/assets/2cd9a7f1-1a42-4061-8f98-15c15cd8675a" />
 
-G. Segment-Specific Behavioral Insight (Hibernating Customers)
+## WHY?
+
+#### A. Discounting & Promotional Usage
+
+Headline: Discounting is rarely used and concentrated in a few customers; promotional coverage is minimal.
+
+- Only 55 customers used discounts, indicating very limited discount activity. The targeting doesn't appear to have been planned carefully, yet a surprisingly large number of mass customers still received discounts—more than those in the elite segment.
+
+- Low promotional penetration suggests missed opportunities for targeted offers to retain or reactivate specific cohorts.
+
+<img width="548" height="516" alt="DiscountChart" src="https://github.com/user-attachments/assets/c9183b81-00f7-4651-80f3-d29bc3a856ae" />
+
+#### B. Segment-Specific Behavioral Insight (Hibernating Customers)
 
 Headline: Hibernating customers concentrate spend in low-value categories, potentially explaining churn.
 
 - “Hibernating” cohort spends predominantly on the “Bottom” product category across months in Year 1.
 
-- Possible interpretation: low-ticket purchasing mix reduces engagement and increases likelihood of churn when product relevance or availability declines.
-
 - Customers flagged as having “Unknown” frequency behavior—those who purchase fewer than five times—allocate most of their spending to Mid-tier and Bottom-tier products.
 
 - In contrast, Premium, Elite, and VIP segments direct the majority of their spending toward Top-tier products, indicating a clear value stratification across behavioral groups.
 
-[CHART: Monthly spend by product category for Hibernating cohort]
+- Possible interpretation: low-ticket purchasing mix reduces engagement and increases likelihood of churn when product relevance or availability declines.
 
-[TABLE: Hibernating cohort product category breakdown]
 
-H. Cancellations & Returns — Distribution and Impact
+
+#### C. Cancellations & Returns — Distribution and Impact
 
 Headline: Cancellations are widespread across segments but do not appear to be the primary driver of customer loss.
 
 - High percentages of cancellations exist across segments (e.g., ~94% of VIPs, 90% of Elites have had at least one cancellation).
 
+<img width="627" height="376" alt="CancellationStackedBarChart" src="https://github.com/user-attachments/assets/8a722d25-8fbd-49e5-8b04-1e5f40b25816" />
+
 - Categorizing cancellation revenue: 71.18% of cancellation revenue loss falls into a “good” group (customers with stable or only slightly declining net revenue), 25.82% in the “bad” group (lost/declining customers), 3% others.
+
+<img width="591" height="504" alt="CancellationPieChart" src="https://github.com/user-attachments/assets/071436d4-5480-49cc-964b-13c4d4eab5e3" />
 
 - Conclusion: cancellations alone are unlikely to explain most customer churn; other factors (value decline, competition, product fit) are likely contributors.
 
-[CHART: Cancellation revenue waterfall by customer group (Good / Bad / Other)]
 
-[TABLE: Cancellation incidence and subsequent retention rates by segment]
