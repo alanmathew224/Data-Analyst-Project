@@ -14,32 +14,39 @@
 ### Table A — Campaign matrix (segment × status)
 Columns: **Segment | Status | Objective | Tactic | Channel | Offer example | KPI | Priority**
 
-| Segment | Status | Objective | Tactic | Channel | Offer example | KPI | Priority |
-|---|---:|---|---|---|---|---:|---:|
-| VIP / Elite | Active | Increase repeat frequency & AOV | Personalized high-value bundles + early access | Email + Account Manager | 10% off Top SKUs + VIP-only bundle | Incremental LTV, repeat rate | High |
-| VIP / Elite | At-risk (declining) | Prevent churn | Retention outreach + 1:1 promo + service recovery | Phone / Email | £20 credit + dedicated rep | Churn rate, retention lift | High |
-| Premium | Active | Grow spend tier | Targeted cross-sell using Top SKUs | Email, SMS | Product-bundle discount (single-use) | AOV, basket size | High |
-| Mass | Active | Improve conversion & margin | Category promotions + product recommendations | Email, onsite banners | 15% off selected Mid products | Conversion rate, margin impact | Medium |
-| Hibernating | Dormant / Lost | Re-activation | Re-engagement promo tied to category preference | Email + Paid Social | 25% off Bottom→Mid product upgrade | Reactivation rate, ARPU | Medium |
-| Anonymous | Any | Capture identity & enable targeting | Incentivized identity capture at checkout | Checkout modal, email-on-receipt | 10% off next order for sign-up | % converted to identified, LTV | High |
-
-> _Add your campaign rows to this table. Replace examples with completed offers from `Recommendation.md` or marketing stakeholders._
+| Segment     | Status          | Priority | Campaign                  | Tactics                                                                  | Channels                              | Offer Example                                          | Key KPI                                |
+| ----------- | --------------- | -------- | ------------------------- | ------------------------------------------------------------------------ | ------------------------------------- | ------------------------------------------------------ | -------------------------------------- |
+| VIP         | Active          | Highest  | Loyalty & Expansion       | Cross-sell recs, loyalty boosts, referral incentives                     | Account Manager, Email, Phone, Events | Exclusive 1:1 offers, early access, tailored pricing   | Retention rate, Rev change, Attendance |
+| VIP         | At Risk         | Highest  | Winback (High-touch)      | Personalized outreach, special offers, feedback survey                   | Account Manager, Email, Phone, Events | Exclusive 1:1 offers, early access, tailored pricing   | Retention rate, Rev change, Attendance |
+| Elite       | Potential       | High     | Expansion & Upsell        | [Elite Active], expansion upsell, cross-sell recs                        | Email, SMS, Phone outreach            | Premium discount, loyalty points, personalized bundles | Rev uplift, Repeat rate                |
+| Elite       | Active          | High     | Loyalty & Expansion       | Loyalty boosts, referral incentives                                      | Email, SMS, Phone outreach            | Premium discount, loyalty points, personalized bundles | Rev uplift, Repeat rate                |
+| Elite       | At Risk         | High     | Winback (High-touch)      | [Elite Active], personalized outreach, special offers, feedback survey   | Email, SMS, Phone outreach            | Premium discount, loyalty points, personalized bundles | Rev uplift, Repeat rate                |
+| Premium     | Potential       | High     | Expansion & Upsell        | [Premium Active] expansion upsell, cross-sell recs                       | Email, Push, Social                   | Category discount, cross-sell                          | Conversion rate, AOV                   |
+| Premium     | Active          | Medium   | Loyalty & Expansion       | Loyalty boosts                                                           | Email, Push, Social                   | Category discount, cross-sell                          | Conversion rate, AOV                   |
+| Premium     | New             | Medium   | Onboarding & Expansion    | Welcome series, quick-start guides, first-purchase incentives            | Email, Push, Social                   | Category discount, cross-sell                          | Conversion rate, AOV                   |
+| Premium     | At Risk         | High     | Winback (High-touch)      | [Premium Active], personalized outreach, special offers, feedback survey | Email, Push, Social                   | Category discount, cross-sell                          | Conversion rate, AOV                   |
+| Mass        | Potential       | Medium   | Upsell                    | Cross-sell recs, product bundles, limited-time offers                    | Email, Push, Social                   | Category discount, cross-sell                          | Conversion rate, AOV                   |
+| Mass        | Active          | Low      | Loyalty & Expansion       | Loyalty boosts                                                           | Email, Ads, Push                      | Volume discounts, coupons                              | Activation, CAC                        |
+| Mass        | New             | Low      | Onboarding                | Welcome series, quick-start guides, first-purchase incentives            | Email, Ads, Push                      | Volume discounts, coupons                              | Activation, CAC                        |
+| Mass        | At Risk         | High     | Winback (High-touch)      | Personalized outreach, special offers, feedback survey                   | Email, Ads, SMS, Push                 | Volume discounts, coupons                              | Activation, CAC                        |
+| Hibernating | At Risk         | Medium   | Winback (High-touch)      | Personalized outreach, special offers, feedback survey                   | Email, Ads, SMS, Push                 | Volume discounts, coupons                              | Activation, CAC                        |
+| Hibernating | Can't Lose Them | Medium   | Save & Retain             | Custom offers, contract-like incentives                                  | Email, Ads, Push                      | Volume discounts, coupons                              | Activation, CAC                        |
+| Hibernating | Hibernating     | Low      | Re-activation (low-touch) | Re-engagement emails, seasonal promos                                    | Email, Ads, Push                      | Volume discounts, coupons                              | Activation, CAC                        |
+| Anonymous   | Any             | High     | Capture identity          | Incentivized identity capture at checkout                                | Checkout modal, email-on-receipt      | 10% off next order for sign-up                         | % converted to identified, LTV         |
 
 
 ### Table B — Campaign playbook: behavior-based offers
 Columns: **Behavior | Objective | Offer type / messaging | Timing | KPI**
 
-| Behavior | Objective | Offer type / messaging | Timing | KPI |
-|---|---|---|---:|---:|
-| Unknown frequency (<5 purchases) | Drive repeat and higher-margin purchases | Mid-tier upsell with trial bundle; emphasize quality & value | 2–4 weeks after purchase | Repeat rate in 90 days, AOV |
-| Wholesaler / High-frequency | Improve retention and margin | Volume pricing, subscription or account-level discounts; negotiable terms | Ongoing (account mgmt) | Retention rate, GM% |
-| Seasonal (fall spike) | Capture peak revenue + smooth off-season | Time-limited bundles and early-bird offers for next season | Pre-fall & Fall peak | Incremental seasonal revenue |
-| New customer (Top-product promo) | Convert to repeat at higher AOV | “Welcome bundle” with Top products + small cross-sell | First 30 days | 30/90-day repeat, AOV |
-| Hibernating | Re-activation & test upgrade | Deep discount on Mid product + cross-sell into Top | Re-activation campaign window | Reactivation rate, CLTV uplift |
+| Behavior                | Tactics                                                                                      |
+| ----------------------- | -------------------------------------------------------------------------------------------- |
+| Seasonal Buyer          | Seasonal promos timed to peak season, timed reminders, limited collections, targeted bundles |
+| One-off Buyer           | Discounts on second purchase, retargeting, product education, small repeat incentives        |
+| Repetitive Buyer        | Bundle promotions, replenishment reminders, cross-sell complementary items, upsell           |
+| Low Frequency Buyer     | Nudge campaigns, limited-time discounts, content to increase relevance                       |
+| Reguler Frequency Buyer | Loyalty point accelerators, personalized recommendations                                     |
+| High Frequency Buyer    | Exclusive offers, higher-tier loyalty benefits                                               |
 
-> _Use this playbook as campaign templates. Each row should be converted into a campaign brief (audience definition, creative, timing, KPI, and experiment design)._
-
----
 
 ## 2. Data & Analytics Pipeline Improvements — Requirements & Rationale
 **Goal:** make targeting, attribution, experiment measurement, and personalization reliable and reproducible.
@@ -49,7 +56,6 @@ Columns: **Behavior | Objective | Offer type / messaging | Timing | KPI**
 - **Standardise cancel/return invoice linkage.** All cancellation invoices must reuse the original invoice number prefixed with `C` (e.g., `12345` → `C12345`). Rationale: deterministic join between sale and return for accurate net revenue and churn analysis.
 - **Create canonical `product` master.** Columns: `product_id` (StockCode), `name`, `product_category` (tier: Top/Mid/Bottom), `specs`, `date_added`, `current_price`, `price_before`, `price_change_date`. Rationale: avoid duplicate SKUs, support price-history analyses, and enable product-level propensity models.
 - **Create canonical `customer` master.** Columns: `customer_id`, `email` (normalized), `name`, `country`, `date_joined`, `lifecycle_status`, `segment`, `source_channel`. Rationale: unified identity for segmentation, personalization, and LTV modeling.
-- **Enforce one-to-one mapping for `StockCode` → `Description` & `UnitPrice`.** Rationale: prevents double-counting and inconsistent product aggregates.
 - **Promotion table (`promotion_master`).** Columns: `promo_id`, `start_date`, `end_date`, `type`, `target_segment`, `mechanic`, `notes`. Rationale: canonical source of campaign truth for attribution and ROI.
 - **ETL / CDC step for deduplication and normalization.** Include: email normalization, cookie/device-to-customer mapping, and anomalous-row flagging. Rationale: improve matching, reduce false-positives in churn/retention metrics.
 
@@ -101,7 +107,7 @@ Columns: **Behavior | Objective | Offer type / messaging | Timing | KPI**
 
 **Targets (example starting points):**
 - Identity capture: convert **10–20%** of anonymous buyers within the pilot.  
-- Retention pilot (top 5%): aim for **5–10%** lift in repeat purchases over 90 days.  
+- Retention pilot (top 2%): aim for **5–10%** lift in repeat purchases over 90 days.  
 - Promo coverage: increase recorded discounted transactions from 55 → **500** unique customers while maintaining positive promo ROI.
 
 ---
@@ -110,7 +116,7 @@ Columns: **Behavior | Objective | Offer type / messaging | Timing | KPI**
 1. Convert this document into campaign briefs (one brief per Table A row) with audience SQL, creative specs, and timing.  
 2. Implement quick wins in the ingestion pipeline (discount flag, cancellation standardization).  
 3. Stand up dashboards: (a) campaign performance, (b) data quality, (c) cohort revenue waterfall.  
-4. Begin identity-capture pilot and the top-5% retention holdout experiment.
+4. Begin identity-capture pilot and the top-2% retention holdout experiment.
 
 ---
 <!-- End of Recommendation.md -->
