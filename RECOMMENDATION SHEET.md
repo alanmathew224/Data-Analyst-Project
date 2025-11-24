@@ -47,6 +47,60 @@ Columns: **Behavior | Objective | Offer type / messaging | Timing | KPI**
 | Reguler Frequency Buyer | Loyalty point accelerators, personalized recommendations                                     |
 | High Frequency Buyer    | Exclusive offers, higher-tier loyalty benefits                                               |
 
+### Other campaign guidelines
+### A. Seasonality Campaigns — Fall Peak Playbook
+**Objective:** Maximize margin and long‑term customer value during the Fall revenue peak while avoiding unnecessary margin erosion.
+
+**Why:** Fall (with a November peak) generates a disproportionate share of annual revenue. The period is ideal for strategic upsell, acquisition, and reactivation—but blanket discounts can damage margin and train customers to buy only on sale.
+
+**Promotions framework:**
+
+* Prefer **tiered incentives** (free‑shipping thresholds, bundle pricing, gift-with-purchase, loyalty points multiplier) over broad percentage-off sitewide sales.
+* Use **time-limited, audience-targeted offers**: high-value exclusive offers for VIP/Elite, upgrade bundles for Unknown/Hibernating cohorts, and welcome bundles for new customers.
+* Avoid blanket discounts on Top SKUs; instead, use value-preserving mechanics (e.g., bundle Top + Mid with small discount, coupon for a subsequent purchase).
+
+**Tactics (examples):**
+
+* **VIP/Elite:** Early access + curated bundles (limited quantity) — experiment with small exclusive discounts vs. bundled value.
+* **New customers:** Welcome bundle featuring a Top product + free shipping threshold.
+* **Hibernating / Unknown:** Targeted limited-time upgrade offers (Mid → Top trial bundle) delivered pre‑Fall and during Fall peak.
+
+**Measurement & experiments:**
+
+* Use **holdout groups** (randomized sample or geographies) to measure incremental revenue and LTV.
+* Primary KPIs: incremental revenue vs baseline, margin impact, uplift in Top-product penetration, and campaign ROI.
+* Secondary KPIs: reactivation rate, AOV, repeat rate at 30/90 days.
+
+**Recommendation on timing:**
+
+* Run a short **pre-Fall test** (2–4 weeks) to validate messaging and mechanics, then scale successful treatments into the main Fall window.
+* Maintain a small control group throughout Fall to measure true incremental lift.
+
+### B. Product-level Growth Levers — Top-product Promotion Playbook
+**Objective:** Increase high-value revenue by promoting Top products to cohorts with the highest propensity to purchase at higher AOV (e.g., New customers, Premium segments, and targeted Unknown-frequency cohorts).
+
+**Why:** Revenue is concentrated in a small set of SKUs. Efficiently promoting Top products to the right cohorts increases conversion efficiency and AOV without broad margin erosion.
+
+**Tactics:**
+
+* **Top-product trial bundles** for New customers and Unknown-frequency customers: smaller-priced entry bundle featuring a Top SKU + complementary Mid SKU to lower friction and increase attach rates.
+* **Personalized cross-sell:** Recommend Top items in post-purchase emails for customers whose purchase history indicates affinity to related categories.
+
+**Measurement & KPIs:**
+
+* Top-product penetration (share of customers who purchase Top SKU) by cohort.
+* AOV change and attach rate for cross-sell items.
+* Conversion lift on welcome bundles and trial offers (measured vs. matched control group).
+* Incremental margin contribution per campaign.
+
+**Example experiment design:**
+
+* Randomly assign new customers into: (A) welcome bundle with Top SKU, (B) standard welcome coupon, (C) control (no incentive). Compare 30‑day repeat rate, AOV, and margin uplift.
+
+**Operational notes:**
+
+* Use the `product_master` and `promotion_master` tables (Recommendation.md) to ensure consistent treatment mapping and attribution.
+* Ensure promotional mechanics are recorded at transaction-level (`promo_id`, `discount_amount`) so measurement is deterministic.
 
 ## 2. Data & Analytics Pipeline Improvements — Requirements & Rationale
 **Goal:** make targeting, attribution, experiment measurement, and personalization reliable and reproducible.
