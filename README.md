@@ -1,6 +1,8 @@
 # Data-Analyst-Project
 Exploratory data analysis for an online store based in UK.
 
+---
+
 ## TL;DR
 
 Quick summary: Revenue growth is flat and the business is highly dependent on a very small set of customers and products. Targeted retention and identification of anonymous buyers are the highest-impact levers.
@@ -14,26 +16,33 @@ Key metrics:
 
 Business ask: Prioritize targeted retention for high-value cohorts, convert anonymous buyers into identified customers, and improve data quality to enable measurement and personalization.
 
+---
+
 ## Table of Contents
 
 1. Background & Overview
-2. Executive summary (WHAT / Business objective)
-3. Key segment metrics (Year‑2 snapshot)
+2. Data structure overview (short)
+3. Executive summary (WHAT / Business objective)
 4. Insight Deep Dive — WHAT (key findings) + WHY (drivers / root causes)
-5. Data structure overview (short)
-6. Methodology / How to reproduce / Limitations / Metric definitions
-7. Recommendations (short action summary + link to Recommendation.md)
-8. Additional files & artifacts
+5. Methodology / How to reproduce / Limitations / Metric definitions
+6. Recommendations (short action summary + link to Recommendation.md)
+7. Additional files & artifacts
+
+---
 
 ## 1. Background and Overview
 This project analyses two years of transaction-level data from a UK-based online retailer (gifts & home decoration). The goal is to surface business-critical findings and propose targeted, measurable actions to improve retention, increase customer lifetime value, and reduce revenue risk.
 
 Dataset scope: two-year transaction history (item-level: invoice, SKU, qty, unit price, customer identifier, timestamp, country). [See Data Structure Overview below.]
 
+---
+
 ## 2. Data Structure Overview
 The dataset comprises two years of transactional records from the online retail store (December 1, 2009 – December 19, 2011). Core fields: InvoiceNo, StockCode (SKU), Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country.
 
 Recommended additions (in pipeline): discount flag, normalized customer contact fields, promo table, canonical product master, cancellation linkage via standardized invoice IDs.
+
+---
 
 ## 3. Executive Summary
 The dataset originates from an online retail store based in the United Kingdom that specializes in gifts and home decoration products. The analysis covers two years of transaction records, from December 2009 to November 2011, including detailed information on products, transaction dates, quantities, pricing, and customer identifiers. For comparison purposes, the dataset is divided into two periods:
@@ -47,6 +56,8 @@ High-level result: Minimal year-over-year growth masks a decline in value among 
 Year‑2 segment snapshot: (summary table / key numbers)
 
 <img width="927" height="169" alt="image" src="https://github.com/user-attachments/assets/0f837c42-ff05-4252-a1df-38fb4fdfe38e" />
+
+---
 
 ## 4. Insight Deep Dive — WHAT (Key findings) + WHY (Drivers & root causes)
 
@@ -107,24 +118,26 @@ Takeaway: Promo usage is limited and uneven; cancellations are common but not th
 
 ### 4.7 Segment-Specific Behavioral Insight (Hibernating Customers)
 
-Headline: Hibernating customers concentrate spend in low-value categories, potentially explaining churn.
+Takeaway: Value concentration follows product tier: high-value segments buy Top items, low-engagement segments stay in low-tier categories. This gap signals an opportunity to shift low-tier customers upward through targeted Top-product trials.
 
-- “Hibernating” cohort spends predominantly on the “Bottom” product category across months in Year 1.
-- Customers flagged as having “Unknown” frequency behavior—those who purchase fewer than five times—allocate most of their spending to Mid-tier and Bottom-tier products.
-- In contrast, Premium, Elite, and VIP segments direct the majority of their spending toward Top-tier products, indicating a clear value stratification across behavioral groups.
+- Hibernating customers consistently spend on Bottom-tier products throughout Year 1.
+- “Unknown” frequency customers (<5 purchases) concentrate spending in Mid and Bottom tiers.
+- Premium, Elite, and VIP customers allocate most of their spend to Top-tier products, showing clear value segmentation.
 
 [Download the Power BI file](./InteractiveChart.pbix)
 
 ### 4.8 Cancellations & Returns — Distribution and Impact
 
-Headline: Cancellations are widespread across segments but do not appear to be the primary driver of customer loss.
+Takeaway: Cancellations are widespread across segments but do not appear to be the primary driver of customer loss.
 
-- High percentages of cancellations exist across segments (e.g., ~94% of VIPs, 90% of Elites have had at least one cancellation).
+- Cancellations occur widely across segments (up to ~94% of VIPs and 90% of Elites).
 
 <img width="627" height="376" alt="CancellationStackedBarChart" src="https://github.com/user-attachments/assets/8a722d25-8fbd-49e5-8b04-1e5f40b25816" />
 
-- Categorizing cancellation revenue: 71.18% of cancellation revenue loss falls into a “good” group (customers with stable or inclining revenue), 25.82% in the “bad” group (lost/customers with declining revenue), 3% others.
-- Conclusion: cancellations alone are unlikely to explain most customer churn; other factors (value decline, competition, product fit) are likely contributors.
+- Most cancellation-related revenue loss (71.18%) comes from customers with stable or growing spend; only ~26% comes from lost/declining customers.
+- Conclusion: Cancellations do not appear to be a primary driver of churn.
+
+---
 
 ## 5. Recommendations (short action summary)
 
@@ -137,12 +150,16 @@ Action summary (top priorities):
 
 Full recommendations and campaign playbook are in Recommendation.md (detailed campaign table + sample offers + KPIs).
 
+---
+
 ## 6. Methodology / How to reproduce / Limitations / Metric definitions
 - Repro environment: notebooks in /notebooks (Jupyter / Colab) — replace with ["Tools used"].
 - Data sources: transactional CSV in /data — replace with actual path or S3 location.
 - How to reproduce: run notebooks/00_data_prep.ipynb → 01_segmentation.ipynb → 02_insights.ipynb (or run the provided pipeline). See requirements.txt / environment.yml for package list. [Replace placeholder with actual files/tools].
 - Limitations: missing / noisy identifiers, limited promo metadata, inconsistent SKU descriptions & unit prices across rows, partial cancellation linkage.
 - Metric definitions: include short definitions (Revenue = sum(UnitPrice × Quantity), AOV = revenue / orders, Retained customer = customer with transactions in both periods, etc.) — expand in a separate section if needed.
+
+---
 
 ## 7. Additional files & artifacts
 - Recommendation.md — detailed campaign and measurement playbook.
