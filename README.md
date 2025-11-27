@@ -123,9 +123,9 @@ Takeaway: Promo usage is limited and uneven; cancellations are common but not th
 
 <img width="627" height="343" alt="DiscountChart" src="https://github.com/user-attachments/assets/a19c0658-bc9d-4b3d-9148-b65d8ba94692" />
 
-- Cancellation rates high across segments (e.g., VIP ~94% have at least one cancellation). Cancellation revenue largely concentrated in customers with stable revenue histories — suggests cancellations are not the main churn cause.
+- Cancellation rates high across segments (e.g., VIP ~94% have at least one cancellation). Cancellation revenue also largely concentrated in customers with stable or inclining revenue histories.
 
-<img width="627" height="376" alt="CancellationStackedBarChart" src="https://github.com/user-attachments/assets/8a722d25-8fbd-49e5-8b04-1e5f40b25816" />
+<img width="493" height="296" alt="CancellationStackedBarChart" src="https://github.com/user-attachments/assets/d3ab1aac-932f-4778-bfbe-3374d3adb408" /><img width="393" height="275" alt="CancellationPieChart" src="https://github.com/user-attachments/assets/b16dc3f9-31f8-484b-aec5-29b372bac765" />
 
 - Conclusion: Churn appears more strongly associated with discount-usage patterns, while cancellations contribute little to explaining customer attrition.
 
@@ -154,13 +154,7 @@ Full recommendations and campaign playbook are in [RECOMMENDATION_SHEET.md](./RE
 
 ---
 
-## 6. Methodology / How to reproduce / Limitations / Metric definitions
-- Repro environment: notebooks in /notebooks (Jupyter / Colab) — replace with ["Tools used"].
-- How to reproduce: run notebooks/00_data_prep.ipynb → 01_segmentation.ipynb → 02_insights.ipynb (or run the provided pipeline). See requirements.txt / environment.yml for package list. [Replace placeholder with actual files/tools].
-
----
-
-## 7. Caveats and Assumptions
+## 6. Caveats and Assumptions
 - The dataset does not include profit or cost-of-goods information. Revenue is therefore used as a proxy metric for value contribution throughout the analysis.
 - Several SKUs show inconsistent UnitPrice values without corresponding date differences. Although this may reflect undocumented promotions or pricing adjustments, the dataset lacks fields that clarify the cause, making it difficult to attribute price variation accurately.
 - No fields or documentation indicating marketing campaigns, discounts, or active promotions are included in the data. For that reason, the analysis assumes the absence of structured promotional activity unless explicitly recorded as a discount.
@@ -169,7 +163,7 @@ Full recommendations and campaign playbook are in [RECOMMENDATION_SHEET.md](./RE
 
 ---
 
-## 8. Additional files & artifacts
+## 7. Additional files & artifacts
 - Recommendation.md — detailed campaign and measurement playbook.
 - /notebooks — reproducible analysis (notebooks) — [placeholder: add actual notebook filenames].
 - InteractiveChart.pbix — Power BI dashboard (links to downloadable file). Note: embedding interactive .pbix inside .md is not supported — provide a downloadable link or publish to Power BI Service and link.
