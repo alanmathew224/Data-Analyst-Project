@@ -78,7 +78,6 @@ Takeaway: Revenue is highly concentrated—small customer cohorts drive most rev
 - Total Revenue rose slightly (+1%) but identified-customer revenue fell ~2.7%.
 - On each year, Top 2% ≈ 36% of revenue; top5% > 48% top 20% > 73%; bottom 50% ≈ 8%.
 <img width="623" height="464" alt="CustomerPareto" src="https://github.com/user-attachments/assets/f4c351fd-1abc-4686-8203-af1926c44a37" />
-Caption: show share of revenue by top X% and mark top-2% and top-20%.
 
 ### 4.2 Churn / cohort revenue impact
 
@@ -97,6 +96,9 @@ Takeaway: Rising anonymous share is a missed growth & measurement opportunity.
 - Anonymous AOV (£1,032.50) > Elite AOV (£931.20).
 
 <img width="850" height="169" alt="image" src="https://github.com/user-attachments/assets/e7947317-c3e5-4f0e-a404-c083750c8a44" />
+
+### 4.4 Geographic analysis
+Takeaway: 
 
 ### 4.4 Seasonality & buyer heterogeneity
 
