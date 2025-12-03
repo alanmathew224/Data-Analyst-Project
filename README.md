@@ -69,7 +69,7 @@ Year‑2 segment snapshot: (summary table / key numbers)
 | Hibernating | 1533              | 496.85     | 0            |  £                   - |  £                     - | 0%            | 23%                 |
 
 To view the full customer, product, and segment metric tables, download the following file:
-[metrics_overview_full.md](./metrics_overview_full.md.xlsx)
+[metrics_overview_full.xlsx](./metrics_overview_full.md.xlsx)
 
 ---
 
@@ -172,7 +172,7 @@ Full recommendations and campaign playbook are in [RECOMMENDATION_SHEET.md](./RE
 
 ## 7. Additional files & artifacts
 - [Retail Online Dataset – Google Drive](https://docs.google.com/spreadsheets/d/10V5B0B5Hi9FnMQBwXdCTb2KGwBn3VDtF/edit?usp=sharing&ouid=115572422267824839911&rtpof=true&sd=true) — original dataset.
-- [RECOMMENDATION.md](./RECOMMENDATION.md) — detailed campaign and measurement playbook.
+- [RECOMMENDATION_SHEET.md](./RECOMMENDATION_SHEET.md) — detailed campaign and measurement playbook.
 - /notebooks — reproducible analysis (notebooks)
 - [InteractiveChart.pbix](./InteractiveChart.pbix) — Power BI dashboard.
 - [CHEATSHEET.md](./CHEATSHEET.md) — Cheatsheet for the code.
