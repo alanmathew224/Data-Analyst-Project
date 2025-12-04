@@ -26,11 +26,11 @@ Business ask: Prioritize targeted retention for high-value cohorts, convert anon
 ## Table of Contents
 
 1. Background & Overview
-2. Data structure overview (short)
-3. Executive summary (WHAT / Business objective)
+2. Data Structure Overview (short)
+3. Executive Summary (WHAT / Business objective)
 4. Insight Deep Dive — WHAT (key findings) + WHY (drivers / root causes)
-5. Methodology / How to reproduce / Limitations / Metric definitions
-6. Recommendations (short action summary + link to Recommendation.md)
+5. Recommendations (short action summary + link to Recommendation.md)
+6. Caveats and Assumptions
 7. Additional files & artifacts
 
 ---
